@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T02:55:13.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="1ngTH3emBWfzOTl97Ih-" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T03:07:22.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="sNVkDgDaVR4x_GFzQm2W" version="21.1.6" type="github">
   <diagram name="第 1 页" id="ubxKcSlFO65tErfigACV">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,11 +13,62 @@
             <mxPoint x="260" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHSgpQIC2w--y30t0IKM-3" value="承运商注册准入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="kHSgpQIC2w--y30t0IKM-3" value="大陆准入页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kHSgpQIC2w--y30t0IKM-4" value="选择地区" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-4" target="kHSgpQIC2w--y30t0IKM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-6" value="港澳台准入页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-4" target="kHSgpQIC2w--y30t0IKM-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-9" value="大陆" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-10" value="港澳台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-12" value="承运商表tm_supplier&lt;br&gt;（以district字段区分）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-3" target="kHSgpQIC2w--y30t0IKM-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-6" target="kHSgpQIC2w--y30t0IKM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-15" value="填写信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-16" value="填写&lt;font color=&quot;#ff0000&quot;&gt;部分&lt;/font&gt;信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-17" value="三证合一校验&lt;br&gt;小额打款&lt;br&gt;CA认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-17" target="kHSgpQIC2w--y30t0IKM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="400" as="sourcePoint" />
+            <mxPoint x="690" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
