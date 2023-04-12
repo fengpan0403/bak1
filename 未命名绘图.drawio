@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T03:07:22.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="sNVkDgDaVR4x_GFzQm2W" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T03:34:11.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="IV2piXi1w1CS4ck-6mOR" version="21.1.6" type="github">
   <diagram name="第 1 页" id="ubxKcSlFO65tErfigACV">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
             <mxPoint x="260" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHSgpQIC2w--y30t0IKM-3" value="大陆准入页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kHSgpQIC2w--y30t0IKM-3" value="大陆准入页面&lt;br&gt;填写信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kHSgpQIC2w--y30t0IKM-4" value="选择地区" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -25,7 +25,7 @@
             <mxPoint x="300" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHSgpQIC2w--y30t0IKM-6" value="港澳台准入页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kHSgpQIC2w--y30t0IKM-6" value="港澳台准入页面&lt;br&gt;填写&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;部分&lt;/font&gt;&lt;span style=&quot;&quot;&gt;信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kHSgpQIC2w--y30t0IKM-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-4" target="kHSgpQIC2w--y30t0IKM-6">
@@ -55,12 +55,6 @@
             <mxPoint x="690" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHSgpQIC2w--y30t0IKM-15" value="填写信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="120" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kHSgpQIC2w--y30t0IKM-16" value="填写&lt;font color=&quot;#ff0000&quot;&gt;部分&lt;/font&gt;信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="555" y="230" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="kHSgpQIC2w--y30t0IKM-17" value="三证合一校验&lt;br&gt;小额打款&lt;br&gt;CA认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="120" width="150" height="60" as="geometry" />
         </mxCell>
@@ -68,6 +62,90 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="400" as="sourcePoint" />
             <mxPoint x="690" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-19" value="车管审核&lt;br&gt;大陆审核页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="kHSgpQIC2w--y30t0IKM-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="210" as="sourcePoint" />
+            <mxPoint x="1120" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-23" value="创建主数据&lt;br&gt;创建MDMP数据&lt;br&gt;创建钱包&lt;br&gt;初始化技术得分&lt;br&gt;初始化承运商等级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="105" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-19" target="kHSgpQIC2w--y30t0IKM-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="210" as="sourcePoint" />
+            <mxPoint x="1312" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-25" value="车管审核&lt;br&gt;港澳台审核页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-12" target="kHSgpQIC2w--y30t0IKM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="220" as="sourcePoint" />
+            <mxPoint x="1120" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-27" value="承运商&lt;br&gt;注册审核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="120" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-28" value="承运商&lt;br&gt;注册审核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="200" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-29" value="创建主数据&lt;br&gt;创建钱包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="280" as="sourcePoint" />
+            <mxPoint x="1340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-31" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="125" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-32" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="245" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-36" value="车管人工申请&lt;br&gt;SAP编码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="240" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="270" as="sourcePoint" />
+            <mxPoint x="1540" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1540" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-38" value="接收SAP编码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-23" target="kHSgpQIC2w--y30t0IKM-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="180" as="sourcePoint" />
+            <mxPoint x="1600" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-36" target="kHSgpQIC2w--y30t0IKM-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="160" as="sourcePoint" />
+            <mxPoint x="1710" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-41" value="完成准入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1948" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHSgpQIC2w--y30t0IKM-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHSgpQIC2w--y30t0IKM-38" target="kHSgpQIC2w--y30t0IKM-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1660" y="280" as="sourcePoint" />
+            <mxPoint x="1710" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
